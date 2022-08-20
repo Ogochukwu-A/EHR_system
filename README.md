@@ -13,7 +13,29 @@ Here a brief summary of how  EHR system functions and the services provided. Oth
 **Login and Sign-up pages for the healthcare practitioners.**
 
 Here the physician can initiate either a registration as a first-time user or login into his account if he already has one with the option to remember password.
-A new entry will be created in the database of users. If an existing user chooses to log in, the database will be checked for the validity of the username with the corresponding password. After the login/signup screen, users are directed to the dashboard page of the website
+A new entry will be created in the database of users. If an existing user chooses to log in, the database will be checked for the validity of the username with the corresponding password. After the login/signup screen, users are directed to the dashboard page of the website.
+
+**Physician’s Dashboard**
+
+This is the page which shows up after the doctor logs into his account. From this page, he can access the patient page, patient fees and the other pages available to him as a user. Any update the user makes on this page is transmitted over to the database. 
+
+**Patient’s page**
+Here, the physician can CRUD (create, read, update, and delete) the patient’s Data. Each physician only has access to his own patients thereby improving data protection and confidentiality of patient data. 
+
+### Backend
+Data is transmitted to the MySQL database hosted on Xampp
+
+
+## Refernces 
+- Tom S., Dean F., & Tod. G. (2014). Electronic Health Records (EHR). 10.19030/ajhs v3i3.7139.
+- Electronic Health Records | CMS. (n.d.). https://Www.Cms.Gov/Medicare/E-Health/EHealthRecords. https://www.cms.gov/Medicare/E-Health/EHealthRecords
+
+Lecture by Prof. Dr. Ge Mouzhi
+
+
+
+
+
 
 
 
